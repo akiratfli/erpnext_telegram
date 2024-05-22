@@ -89,96 +89,96 @@ app_license = "MIT"
 # 		"on_trash": "method"
 # 	}
 # }
-doc_events = {
-	"*": {
-		"validate": [
-			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.telegram_notification.telegram_notification.run_telegram_notifications",
-			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.sms_notification.sms_notification.run_sms_notifications",
-		],
-		"onload": [
-			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.telegram_notification.telegram_notification.run_telegram_notifications",
-			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.sms_notification.sms_notification.run_sms_notifications",
-		],
-		"before_insert": [
-			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.telegram_notification.telegram_notification.run_telegram_notifications",
-			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.sms_notification.sms_notification.run_sms_notifications",
-		],
-		"after_insert": [
-			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.telegram_notification.telegram_notification.run_telegram_notifications",
-			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.sms_notification.sms_notification.run_sms_notifications",
-		],
-		"before_naming": [
-			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.telegram_notification.telegram_notification.run_telegram_notifications",
-			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.sms_notification.sms_notification.run_sms_notifications",
-		],
-		"before_change": [
-			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.telegram_notification.telegram_notification.run_telegram_notifications",
-			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.sms_notification.sms_notification.run_sms_notifications",
-		],
-		"before_update_after_submit": [
-			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.telegram_notification.telegram_notification.run_telegram_notifications",
-			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.sms_notification.sms_notification.run_sms_notifications",
-		],
-		"before_validate": [
-			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.telegram_notification.telegram_notification.run_telegram_notifications",
-			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.sms_notification.sms_notification.run_sms_notifications",
-		],
-		"before_save": [
-			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.telegram_notification.telegram_notification.run_telegram_notifications",
-			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.sms_notification.sms_notification.run_sms_notifications",
-		],
-		"autoname": [
-			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.telegram_notification.telegram_notification.run_telegram_notifications",
-			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.sms_notification.sms_notification.run_sms_notifications",
-		],
-		"on_update": [
-			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.telegram_notification.telegram_notification.run_telegram_notifications",
-			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.sms_notification.sms_notification.run_sms_notifications",
-		],
-		"on_cancel": [
-			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.telegram_notification.telegram_notification.run_telegram_notifications",
-			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.sms_notification.sms_notification.run_sms_notifications",
-		],
-		"on_trash": [
-			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.telegram_notification.telegram_notification.run_telegram_notifications",
-			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.sms_notification.sms_notification.run_sms_notifications",
-		],
-		"on_submit": [
-			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.telegram_notification.telegram_notification.run_telegram_notifications",
-			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.sms_notification.sms_notification.run_sms_notifications",
-		],
-		"on_update_after_submit": [
-			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.telegram_notification.telegram_notification.run_telegram_notifications",
-			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.sms_notification.sms_notification.run_sms_notifications",
-		],
-		"on_change": [
-			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.telegram_notification.telegram_notification.run_telegram_notifications",
-			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.sms_notification.sms_notification.run_sms_notifications",
-		],
-	},
-}
+# doc_events = {
+# 	"*": {
+# 		"validate": [
+# 			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.telegram_notification.telegram_notification.run_telegram_notifications",
+# 			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.sms_notification.sms_notification.run_sms_notifications",
+# 		],
+# 		"onload": [
+# 			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.telegram_notification.telegram_notification.run_telegram_notifications",
+# 			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.sms_notification.sms_notification.run_sms_notifications",
+# 		],
+# 		"before_insert": [
+# 			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.telegram_notification.telegram_notification.run_telegram_notifications",
+# 			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.sms_notification.sms_notification.run_sms_notifications",
+# 		],
+# 		"after_insert": [
+# 			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.telegram_notification.telegram_notification.run_telegram_notifications",
+# 			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.sms_notification.sms_notification.run_sms_notifications",
+# 		],
+# 		"before_naming": [
+# 			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.telegram_notification.telegram_notification.run_telegram_notifications",
+# 			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.sms_notification.sms_notification.run_sms_notifications",
+# 		],
+# 		"before_change": [
+# 			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.telegram_notification.telegram_notification.run_telegram_notifications",
+# 			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.sms_notification.sms_notification.run_sms_notifications",
+# 		],
+# 		"before_update_after_submit": [
+# 			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.telegram_notification.telegram_notification.run_telegram_notifications",
+# 			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.sms_notification.sms_notification.run_sms_notifications",
+# 		],
+# 		"before_validate": [
+# 			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.telegram_notification.telegram_notification.run_telegram_notifications",
+# 			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.sms_notification.sms_notification.run_sms_notifications",
+# 		],
+# 		"before_save": [
+# 			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.telegram_notification.telegram_notification.run_telegram_notifications",
+# 			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.sms_notification.sms_notification.run_sms_notifications",
+# 		],
+# 		"autoname": [
+# 			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.telegram_notification.telegram_notification.run_telegram_notifications",
+# 			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.sms_notification.sms_notification.run_sms_notifications",
+# 		],
+# 		"on_update": [
+# 			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.telegram_notification.telegram_notification.run_telegram_notifications",
+# 			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.sms_notification.sms_notification.run_sms_notifications",
+# 		],
+# 		"on_cancel": [
+# 			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.telegram_notification.telegram_notification.run_telegram_notifications",
+# 			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.sms_notification.sms_notification.run_sms_notifications",
+# 		],
+# 		"on_trash": [
+# 			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.telegram_notification.telegram_notification.run_telegram_notifications",
+# 			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.sms_notification.sms_notification.run_sms_notifications",
+# 		],
+# 		"on_submit": [
+# 			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.telegram_notification.telegram_notification.run_telegram_notifications",
+# 			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.sms_notification.sms_notification.run_sms_notifications",
+# 		],
+# 		"on_update_after_submit": [
+# 			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.telegram_notification.telegram_notification.run_telegram_notifications",
+# 			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.sms_notification.sms_notification.run_sms_notifications",
+# 		],
+# 		"on_change": [
+# 			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.telegram_notification.telegram_notification.run_telegram_notifications",
+# 			"erpnext_telegram_integration.erpnext_telegram_integration.doctype.sms_notification.sms_notification.run_sms_notifications",
+# 		],
+# 	},
+# }
 # Scheduled Tasks
 # ---------------
 
-scheduler_events = {
-	# 	"all": [
-	# 		"erpnext_telegram_integration.tasks.all"
-	# 	],
-	"daily": [
-		"erpnext_telegram_integration.erpnext_telegram_integration.doctype.telegram_notification.telegram_notification.trigger_daily_alerts",
-		"erpnext_telegram_integration.erpnext_telegram_integration.doctype.sms_notification.sms_notification.trigger_daily_alerts",
-		"erpnext_telegram_integration.extra_notifications.doctype.date_notification.date_notification.trigger_daily_alerts",
-	],
-	# "hourly": [
-	# 	"erpnext_telegram_integration.extra_notifications.doctype.date_notification.date_notification.trigger_daily_alerts",
-	# ],
-	# 	"weekly": [
-	# 		"erpnext_telegram_integration.tasks.weekly"
-	# 	]
-	# 	"monthly": [
-	# 		"erpnext_telegram_integration.tasks.monthly"
-	# 	]
-}
+# scheduler_events = {
+# 	# 	"all": [
+# 	# 		"erpnext_telegram_integration.tasks.all"
+# 	# 	],
+# 	"daily": [
+# 		"erpnext_telegram_integration.erpnext_telegram_integration.doctype.telegram_notification.telegram_notification.trigger_daily_alerts",
+# 		"erpnext_telegram_integration.erpnext_telegram_integration.doctype.sms_notification.sms_notification.trigger_daily_alerts",
+# 		"erpnext_telegram_integration.extra_notifications.doctype.date_notification.date_notification.trigger_daily_alerts",
+# 	],
+# 	# "hourly": [
+# 	# 	"erpnext_telegram_integration.extra_notifications.doctype.date_notification.date_notification.trigger_daily_alerts",
+# 	# ],
+# 	# 	"weekly": [
+# 	# 		"erpnext_telegram_integration.tasks.weekly"
+# 	# 	]
+# 	# 	"monthly": [
+# 	# 		"erpnext_telegram_integration.tasks.monthly"
+# 	# 	]
+# }
 
 # Testing
 # -------
